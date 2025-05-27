@@ -25,7 +25,7 @@ function App() {
   ];
 
   const projects = [
-    {id:1, title:"Art Keiko Suzuki Möller", details:"My art home page created with React and batabase", img:"/img/keikohome.jpg", demo:"", github:"https://github.com/Keikomllr/KeikoArt"},
+    {id:1, title:"Art Keiko Suzuki Möller", details:"My art home page created with React and batabase", img:"/img/keikohome.jpg", demo:"https://keikosuzukimoller.netlify.app/", github:"https://github.com/Keikomllr/KeikoArt"},
     {id:2, title:"CAD software Elwin", details:"Elwin selling license for CAD software developed with Angular and database", img:"/img/elwin.jpg", demo:"", github:"https://github.com/Keikomllr/elwin"},
     {id:3, title:"Harmony-CMK-", details:"A collaborative group project using Express and a SQLite database, following the Scrum development process.", img:"/img/harmony.jpg", demo:"", github:"https://github.com/Keikomllr/group_project"},
     {id:4, title:"Freaky Fashion", details:"A school project using Express, EJS templating, and a SQLite database to build a basic e-commerce platform.", img:"/img/freakyhtml.jpg", demo:"https://freakyfashionhtml.netlify.app/", github:"https://github.com/Keikomllr/Freakyfashion"},
