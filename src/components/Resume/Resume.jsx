@@ -27,7 +27,7 @@ export const Resume = () => {
 
             <div>    
                 <h3 className='text-yellow-600 text-3xl'>
-                    Aachelor's in Art and Graphic Design
+                    Bachelor's in Art and Graphic Design
                 </h3>
                 <p className='text-xl'>2003 - 2007</p>
                 <p className='text-xl'>J.F.Oberlin University, Japan</p>
@@ -45,7 +45,7 @@ export const Resume = () => {
                 </h2><br />
             <div>
                 <h3 className='text-yellow-600 text-3xl'>
-                ArtistAccountant & Project Assistant
+                Accountant & Project Assistant
                 </h3>
                 <p className='text-xl'>2021 - Current</p>
                 <p className='text-xl'>Shinsei Automation AB,Sweden</p>
