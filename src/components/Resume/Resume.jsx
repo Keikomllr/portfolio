@@ -2,12 +2,12 @@ import React from 'react'
 
 export const Resume = () => {
   return (
-   <section id="resume" className='p-10 md:p-20'>
+   <section id="resume" className='p-10 md:p-20 place-items-center'>
      <h1 className='font-mono font-bold text-yellow-600 text-4xl p-7 text-center'>
           RESUME
     </h1>
 
-    <div className='grid grid-cols-1 md:grid-cols-2'>
+    <div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
         <div>
         <h2 className='text-4xl'>
                     Education
@@ -40,7 +40,7 @@ export const Resume = () => {
         </div>
 
         <div>
-        <h2 className='text-4xl'>
+        <h2 className='text-4xl mt-20 md:mt-0'>
                     Work Experience
                 </h2><br />
             <div>

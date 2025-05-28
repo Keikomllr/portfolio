@@ -8,7 +8,7 @@ export const Hero = () => {
           ABOUT ME
     </h1>
     
-    <section className='grid grid-cols-1 md:grid-cols-2 max-w-3/4 place-items-center m-10 md:mr-10'>
+    <section className='grid grid-cols-1 md:grid-cols-2 max-w-[1500px] place-items-center m-10 md:mr-10'>
         <div>
             <img src="/img/keiko.profilephoto2.jpeg" alt="portfolio_pic" className='rounded-full p-5'/>
         </div>

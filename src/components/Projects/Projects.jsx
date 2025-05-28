@@ -3,14 +3,15 @@ import React from 'react'
 export const Projects = ({ projects }) => {
   return (
     <>
-    <article id="projects" className='p-20'>
+    <article id="projects" className='md:p-20 max-w-[1500px]'>
         <h1 className='font-mono font-bold text-yellow-600 text-4xl text-center mt-10'>
           PROJECTS
         </h1>
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 '>
             {projects?.map((project) =>(
                 <div key={project.id} className='m-3 shadow-lg p-5 bg-[rgb(38,63,63)] rounded-lg'>
-                    <img src={project.img} alt={project.title} className='w-full h-[200px] object-fill rounded-lg' />
+                    <img src={project.img} alt={project.title} className='w-full h-[200px] object-cover
+                      rounded-lg' />
                     <p className='text-yellow-600 text-2xl font-bold py-2'>
                         {project.title}
                     </p>
