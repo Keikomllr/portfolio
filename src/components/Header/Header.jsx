@@ -1,4 +1,5 @@
 import React from 'react'
+import Navbar from '../Navbar/Navnar';
 
 const Header = ({ toggleTheme, isDarkMode }) => {
     return (
@@ -9,13 +10,8 @@ const Header = ({ toggleTheme, isDarkMode }) => {
   
           {/* ナビゲーション + ダークモードボタン */}
           <div className="flex items-center gap-6">
-            <nav className="space-x-4 text-xl hidden md:flex">
-              <a href="#about" className="text-gray-300 hover:text-yellow-400 flex items-center gap-1">ℹ️ About</a>
-              <a href="#skills" className="text-gray-300 hover:text-yellow-400 flex items-center gap-1">⚙️ Skills</a>
-              <a href="#resume" className="text-gray-300 hover:text-yellow-400 flex items-center gap-1">📁 Resume</a>
-              <a href="#projects" className="text-gray-300 hover:text-yellow-400 flex items-center gap-1">📂 Projects</a>
-              <a href="#contact" className="text-gray-300 hover:text-yellow-400 flex items-center gap-1">📒 Contact</a>
-            </nav>
+           
+            <Navbar />
   
             {/* ライト/ダーク切替ボタン */}
             <button
